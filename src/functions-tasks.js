@@ -74,9 +74,7 @@ function getArgumentsCount(funcs) {
  *
  */
 function getPowerFunction(exponent) {
-  return function (a) {
-    return a ** exponent;
-  };
+  return (a) => a ** exponent;
 }
 
 /**
